@@ -1,0 +1,130 @@
+    /* here is font import */
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Lato:ital,wght@1,300&family=Montserrat:wght@100&family=Rubik+Bubbles&family=Satisfy&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: #F0ECCF;
+}
+.container-fluid{
+  /* position: absolute; */
+  text-align: center;
+  padding: 1% 15%;
+}
+.navbar{
+  background-color: #A3BB98;
+  font-family: 'Lato-bold', sans-serif;
+}
+.navbar-brand{
+  font-family: 'Montserrat-bold', sans-serif;
+}
+@media only screen and (min-width: 992px) {
+    .profilepic {
+      width: 250px;
+    }
+    .text{
+      text-align: left;
+    }
+    .btn{
+      margin: 10rem auto;
+    }
+    h1{
+      font-size: 60px;
+    }
+    .navbar-brand{
+      font-size: 35px;
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    .profilepic {
+      width: 200px;
+    }
+    .btn{
+      margin: 5rem auto;
+    }
+    h1{
+      font-size: 50px;
+    }
+    .navbar-brand{
+      font-size: 27px;
+    }
+  }
+ @media only screen and (max-width: 600px) {
+    .profilepic {
+      width: 150px;
+    }
+    .container-fluid{
+      padding: 0;
+    }
+    .text{
+      text-align: center;
+    }
+    .btn{
+      margin: 10px auto;
+    }
+    h1{
+      margin: 10px auto;
+      font-size: 40px;
+    }
+    .navbar-brand{
+      font-size: 22px;
+    }
+  }
+
+hr{
+  width: 50%;
+  margin: 5rem auto;
+  border-style: dotted;
+  color: rgb(0, 0, 0);
+}
+.hang{
+  margin: 5rem;
+}
+.text{
+  margin: 15px ;
+  color:;
+}
+h1{
+  font-family: 'Montserrat-bold', sans-serif;
+  margin: 30px 0;
+  /* font-size: 70px; */
+  
+}
+h2{
+  margin: 50px auto;
+  font-family: 'Ubuntu-bold', sans-serif;
+}
+.pdf{
+  text-align: center;
+}
+.btn{
+  background-color: #FBC252;
+}
+.footer{
+  background-color: #A3BB98;
+  height: 16rem;
+  margin-top: 5rem;
+  padding: 3%;
+  text-align: center;
+}
+.social{
+  margin: 0 auto;
+}
+.ending{
+ margin-top: 2.5rem;
+}
+.fa{
+  margin: 1rem;
+}
+p{
+  font-family: 'Rubik Bubbles-larger', cursive;
+}
+.btn{
+  font-family: 'Rubik Bubbles-larger', cursive;
+}
+h3{
+  font-family: 'DM Serif Text', serif;
+}
